@@ -1,6 +1,6 @@
 # apps-cloud-lksn2022
 Web application for Cloud Computing LKSN 2022
-
+Original repo to: https://github.com/handipradana/apps-cloud-lksn2022
 # Backend Service
 ## Install Dependencies
 ### `npm install --prefix <your path>`
