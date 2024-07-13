@@ -13,4 +13,4 @@ app.use(FileUpload());
 app.use(express.static("public"));
 app.use(ProductRoute);
  
-app.listen(5000, ()=> console.log('Server Up and Running...'));
+app.listen(5000, '0.0.0.0', ()=> console.log('Server Up and Running...'));
