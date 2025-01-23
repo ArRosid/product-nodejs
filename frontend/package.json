@@ -19,11 +19,11 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "start-apps": "react-scripts start",
+    "start": "NODE_OPTIONS=--openssl-legacy-provider react-scripts start",
+    "build": "NODE_OPTIONS=--openssl-legacy-provider react-scripts build",
+    "test": "NODE_OPTIONS=--openssl-legacy-provider react-scripts test",
+    "eject": "NODE_OPTIONS=--openssl-legacy-provider react-scripts eject",
+    "start-apps": "NODE_OPTIONS=--openssl-legacy-provider react-scripts start",
     "stop-apps": "pm2 react-scripts stop",
     "prod": "npm run start-apps"
   },
